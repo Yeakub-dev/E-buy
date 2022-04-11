@@ -152,4 +152,31 @@ $(function(){
       $("#overlayer").delay(500).fadeOut("slow");
     })
     //  =========preloader end=======
+
+    $(document).ready(function(){
+      $('.container ul.toggle').click(function(){
+          $(this).toggleClass('active');
+          $('.container .sidebar').toggleClass('active');
+      })
+  })
+  
+//scroll-spy & Smooth-scrolling
+var scrollLink = $('.scroll-link');
+$(scrollLink).on('click', function (event) {
+  event.preventDefault();
+  $('html,body').animate({
+    scrollTop: $(this.hash).offset().top - 40
+  }, 1000);
+});
+$(window).on('scroll', function () {
+  var scrollTop = $(this).scrollTop();
+  scrollLink.each(function () {
+    var sectionhead = $(this.hash).offset().top - 40;
+    if (scrollTop >= sectionhead) {
+      $(this).parent().addClass('active');
+      $(this).parent().siblings().removeClass('active');
+    }
+  });
+});
+    
 })
