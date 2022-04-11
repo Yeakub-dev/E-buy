@@ -1,0 +1,914 @@
+@media(min-width: 1400px){
+    .banner-arrow {
+        margin-top: 396px;
+        margin-left: -52px;
+    }
+    .gellary-img .overlay {
+        height: 160px;
+        top: 279px;
+    }
+    .product-head h3::before {
+        left: 144px;
+    }
+    .product-head h3::after {
+        left: 144px;
+        top:60px;
+    }
+    .letest-head h3::before {
+        left: 170px;
+    }
+    .letest-head h3::after {
+        left: 170px;
+        top:60px;
+    }
+    .testimonial-head h3::before {
+        left: 208px;
+    }
+    .testimonial-head h3::after {
+        left: 208px;
+        top:60px;
+    }
+    .blog-head h3::before {
+        left: 230px;
+    }
+    .blog-head h3::after{
+        left: 230px;
+        top:60px;
+    }
+}
+
+
+
+@media(min-width: 768px) and (max-width: 991px){
+    #header {
+        display: none;
+    }
+    /* =======navbar media css start======= */
+    .navbar {
+        padding: 0px 0;
+    }
+    .navbar-nav {
+        background-color: hsl(209, 89%, 74%);
+        text-align: left;
+    }
+    .navbar-logo{
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+    }
+    .navbar-nav .nav-link:hover::before {
+        display: none;
+    }
+    .navbar-nav .nav-link:hover::after {
+        display: none;
+    }
+    .navbar-search {
+        margin-left: -100px;
+    }
+    .navbar-nav {
+        margin-left: -150px;
+    }
+    .navbar-search i {
+        margin-left: -50px;
+    }
+    .navbar-search p {
+        margin-left: 0px;
+        padding-top: 34px;
+    }
+    /* =======navbar media css end======= */
+
+    /* =======banner media css start======= */
+    #banner {
+        padding-top: 92px;
+    }
+    .banner-text {
+        padding-top: 22px;
+    }
+    .banner-text h1 {
+        font-size: 60px;
+    }
+    .banner-text h3 {
+        font-size: 30px;
+    }
+    .banner-btn {
+        padding-top: 2px;
+    }
+    .banner-btn button{
+        padding: 7px 16px;
+        font-size: 14px;
+    }
+    .banner-btn button:hover {
+        padding: 7px 16px;
+        font-size: 14px;
+    }
+    .slick-dots li{
+        display: none;
+    }
+    .banner-arrow {
+        margin-top: 265px;
+        margin-left: -174px;
+    }
+    /* =======banner media css end======= */
+
+    /* =======gellary media css start======= */
+    #gellary {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+    .gellary-img .overlay {
+        height: 125px;
+        top: 103px;
+        left: 11px;
+    }
+    .gellary-text h2 {
+        font-size: 30px;
+    }
+    .gellary-text h3 {
+        font-size: 20px;
+    }
+    .gellary-btn button {
+        margin-top: 0px;
+        padding: 8px 15px;
+        font-size: 14px;;
+    }
+    .gellary-btn button:hover {
+        margin-top: 0px;
+        padding: 8px 15px;
+        font-size: 14px;;
+    }
+    /* =======gellary media css end======= */
+
+    /* =======product media css start======= */
+    #product {
+        padding-bottom: 60px;
+    }
+    .product-head h3::before {
+        left: 175px;
+    }
+    .product-head h3::after {
+        left: 175px;
+        top:60px;
+    }
+    /* =======product media css end======= */
+
+    /* =======microsoft media css start======= */
+    .microsoft-text h3 {
+        font-size: 25px;
+    }
+    /* =======microsoft media css end======= */
+
+    /* =======letest media css start======= */
+    #letest {
+        padding-top: 46px;
+        padding-bottom: 50px;
+    }
+    .letest-head h3::before {
+        left: 200px;
+    }
+    .letest-head h3::after {
+        left: 200px;
+        top:60px;
+    }
+    .products-overlay-icon {
+        padding-top: 20px;
+    }
+    .products-overlay-icon .icon-2 {
+        padding-top: 18px;
+        padding-bottom: 17px;
+    }
+    .letest-item .overlay {
+        width: 90px;
+    }
+    .products-overlay-icon i {
+        height: 40px;
+        width: 40px;
+        font-size: 17px;
+        line-height: 40px;
+    }
+    .products-text p {
+        font-size: 14px;
+    }
+    .products-text span {
+        margin-left: 6px;
+    }
+    /* =======letest media css end======= */
+
+    /* =======testimonial media css start======= */
+    #testimonial {
+        padding-bottom: 40px;
+    }
+    .testimonial-head h3 {
+        padding-bottom: 45px;
+    }
+    .testimonial-head h3::before {
+        left: 240px;
+    }
+    .testimonial-head h3::after {
+        left: 240px;
+        top:60px;
+    }
+    .w-100 {
+        padding-top: 0px;
+    }
+    .testimonial-text p {
+        padding-top: 0px;
+        line-height: 20px;
+    }
+    .testimonial-text h4 {
+        font-size: 22px;
+    }
+    .testimonial-text h6 {
+        font-size: 18px;
+    }
+    .testimonial-img {
+        margin-top: 6px;
+    }
+    .testimonial-text {
+        margin-left: 22px;
+        margin-top: -14px;
+    }
+    /* =======testimonial media css end======= */
+
+    /* =======blog media css start======= */
+    #blog {
+        padding-bottom: 50px;
+    }
+    .blog-head {
+        padding-bottom: 50px;
+    }
+    .blog-head h3::before {
+        left: 263px;
+    }
+    .blog-head h3::after {
+        left: 263px;
+        top:60px;
+    }
+    .blog-link {
+        margin-top: 45px;
+    }
+    .blog-icon {
+        margin-top: 30px;
+    }
+    .blog-icon span {
+        margin-left: 3px;
+    }
+    .blog-text h4 {
+        font-size: 14px;
+        padding-bottom: 6px;
+    }
+    /* =======blog media css end======= */
+
+    /* =======footer media css start======= */
+    .footer-head {
+        padding-bottom: 22px;
+    }
+    .footer-one p {
+        line-height: 22px;
+    }
+    .footer-two i {
+        margin-right: 5px;
+    }
+    .footer-head h4 {
+        font-size: 14px;
+    }
+    form input {
+        padding: 5px 6px;
+    }
+    .footer-icon i {
+        height: 40px;
+        width: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        margin-right: 14px;
+    }
+    /* =======footer media css end======= */
+}
+
+
+
+
+
+@media(min-width: 576px) and (max-width: 767px){
+    #header {
+        display: none;
+    }
+    /* =======navbar media css start======= */
+    .navbar {
+        padding: 0px 0;
+    }
+    .navbar-nav {
+        background-color: hsl(209, 89%, 74%);
+        text-align: left;
+    }
+    .navbar-logo{
+        transform: scale(0.9);
+        -webkit-transform: scale(0.9);
+        -moz-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        -o-transform: scale(0.9);
+    }
+    .navbar-nav .nav-link:hover::before {
+        display: none;
+    }
+    .navbar-nav .nav-link:hover::after {
+        display: none;
+    }
+    .navbar-search {
+        margin-left: -100px;
+    }
+    .navbar-nav {
+        margin-left: -150px;
+    }
+    .navbar-search i {
+        margin-left: -50px;
+    }
+    .navbar-search p {
+        margin-left: 0px;
+        padding-top: 34px;
+    }
+     /* =======navbar media css end======= */
+
+      /* =======banner media css start======= */
+    #banner {
+        padding-top: 90px;
+    }
+    .banner-text {
+        padding-top: 10px;
+    }
+    .banner-text h3 {
+        font-size: 26px;
+    }
+    .banner-text h1 {
+        font-size: 60px;
+    }
+    .banner-text p {
+        margin-top: -5px;
+        line-height: 20px;
+    }
+    .banner-btn {
+        display: none;
+    }
+    .slick-dots li{
+        display: none;
+    }
+    .banner-arrow {
+        margin-top: 205px;
+        margin-left: -174px;
+    }
+     /* =======banner media css end======= */
+
+    /* =======service media css start======= */
+    .service-content h3 {
+        font-size: 16px;
+        padding-top: 23px;
+    }
+    .service-content:hover::after{
+        content: "";
+        position: absolute;
+        width: 2px;
+        height:120px;
+        top:0px;
+        left: 10px;
+        background-color: #dddddd;
+    }
+    .service-content:hover::before{
+        content: "";
+        position: absolute;
+        width: 2px;
+        height:120px;
+        top:0px;
+        left: 97%;
+        background-color: #dddddd;
+    }
+    .service-content h3 {
+        padding-bottom: 0px;
+    }
+    /* =======navbar media css end======= */
+
+    /* =======gellary media css start======= */
+    #gellary {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .gellary-img .overlay {
+        height: 150px;
+        top: 115px;
+    }
+    .gellary-text h2 {
+        font-size: 32px;
+    }
+    .gellary-text h3 {
+        font-size: 20px;
+    }
+    .gellary-btn button {
+        margin-top: 15px;
+        padding: 8px 14px;
+        font-size: 15px;
+    }
+    .gellary-btn button:hover {
+        padding: 8px 14px;
+        font-size: 15px;
+    }
+    .w-100 {
+        width: 100% !important;
+        padding-top: 10px;
+    }
+    element {
+        margin-top: -15px;
+    }
+    /* =======gellary media css end======= */
+
+    /* =======product media css start======= */
+    #product {
+        padding-bottom: 65px;
+    }
+    .microsoft-text {
+        padding-top: 30px;
+    }
+    .coun-down {
+        text-align: center;
+    }
+    .microsoft-text h6 {
+        font-size: 26px;
+        text-align: center;
+    }
+    /* =======product media css end======= */
+
+    /* =======letest media css start======= */
+    #letest {
+        padding-top: 60px;
+        padding-bottom: 65px;
+    }
+    .products-overlay-icon {
+        padding-top: 25px;
+    }
+    .letest-item .overlay {
+        width: 50px;
+    }
+    .products-overlay-icon i {
+        height: 30px;
+        width: 30px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .products-overlay-icon .icon-2 {
+        padding-top: 8px;
+        padding-bottom: 11px;
+    }
+    .products-text p {
+        font-size: 14px;
+    }
+    /* =======letest media css end======= */
+
+    /* =======testimonial media css start======= */
+    #testimonial {
+        padding-bottom: 60px;
+    }
+    .testimonial-overlay {
+        height: 95%;
+        top: 9px;
+    }
+    .testimonial-text {
+        margin-left: 135px;
+        margin-top: -152px;
+    }
+    .w-100 {
+        padding-top: 0px;
+    }
+    .testimonial-text p {
+        padding-top: 0px;
+        line-height: 20px;
+    }
+    .testimonial-text p {
+        display: none;
+    }
+    .testimonial-text h4 {
+        font-size: 30px;
+    }
+    .testimonial-text h6 {
+        font-size: 25px;
+    }
+    .testimonial-img {
+        margin-top: 6px;
+    }
+    /* =======testimonial media css end======= */
+
+    /* =======blog media css start======= */
+    #blog {
+        padding-bottom: 50px;
+    }
+    .blog-head {
+        padding-bottom: 50px;
+    }
+    .blog-text h4 {
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .blog-text p {
+        line-height: 22px;
+        padding-bottom: 2px;
+    }
+    .blog-link {
+        margin-top: 57px;
+    }
+    .blog-icon {
+        margin-top: 21px;
+    }
+    /* =======blog media css end======= */
+
+    /* =======footer media css start======= */
+    #footer {
+        padding-top: 50px;
+        padding-bottom: 36px;
+        text-align: center;
+    }
+    .copyright-text p {
+        margin-right: -115px;
+    }
+    /* =======footer media css end======= */
+}
+
+
+@media(max-width: 575.99px){
+    #header {
+        display: none;
+    }
+    /* =======navbar media css start======= */
+    #navbar {
+        padding-top: 20px;
+        padding-bottom: 5px;
+    }
+    .navbar {
+        position: static;
+        margin-left:0px;
+        padding-top: 0px;
+        padding-bottom: 10px;
+    }
+    .navbar-nav {
+        background-color: hsl(209, 89%, 74%);
+        text-align: left;
+    }
+    .navbar-logo{
+        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+        -moz-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        -o-transform: scale(0.8);
+    }
+    .navbar-nav .nav-link:hover::before {
+        display: none;
+    }
+    .navbar-nav .nav-link:hover::after {
+        display: none;
+    }
+    .navbar-search {
+        margin-left: -100px;
+    }
+    .navbar-nav {
+        margin-left: -150px;
+    }
+    .navbar-search i {
+        margin-left: -50px;
+    }
+    .navbar-search p {
+        margin-left: 0px;
+        padding-top: 34px;
+    }
+    /* =======navbar media css end======= */
+    /* =======banner media css start======= */
+    .banner-text {
+        padding-top: 30px;
+    }
+    .banner-text h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+    .banner-text h3 {
+        font-size: 18px;
+        text-align: center;
+    }
+    .banner-text p {
+        display: none;
+    }
+    .banner-btn {
+        display: none;
+    }
+    .slick-dots li{
+        display: none;
+    }
+    #banner {
+        padding-top: 0px;
+    }
+    .banner-arrow {
+        display: none;
+    }
+    .service-content h3 {
+        font-size: 16px;
+        padding-top: 8px;
+    }
+    .service-content:hover::after{
+        content: "";
+        position: absolute;
+        width: 2px;
+        height:120px;
+        top:0px;
+        left: 10px;
+        background-color: #dddddd;
+    }
+    .service-content:hover::before{
+        content: "";
+        position: absolute;
+        width: 2px;
+        height:120px;
+        top:0px;
+        left: 97%;
+        background-color: #dddddd;
+    }
+  /* =======banner media css end======= */
+
+  /* =======gellary media css start======= */
+  #gellary {
+	padding-top: 50px;
+	padding-bottom: 50px;
+    }
+    .gellary-img .overlay {
+        height: 150px;
+        top: 157px;
+    }
+    .gellary-text h2 {
+        font-size: 30px;
+    }
+    .gellary-text h3 {
+        font-size: 20px;
+    }
+    .gellary-btn button {
+        margin-top: 15px;
+        padding: 7px 12px;
+        font-size: 14px;
+    }
+    .gellary-btn button:hover {
+        padding: 7px 12px;
+        font-size: 14px;
+    }
+    .w-100 {
+        width: 100% !important;
+        padding-top: 10px;
+    }
+  /* =======gellary media css end======= */
+
+  /* =======product media css start======= */
+  #product {
+	padding-bottom: 50px;
+    }
+  .product-head h3 {
+	font-size: 20px;;
+    }
+    .product-head h3::before {
+        display: block;
+        width: 40px;
+        height: 2px;
+        top:40px;
+        left: 62px; 
+    }
+    .product-head h3::after {
+        display: block;
+        width: 90px;
+        top:35px;
+        left: 62px; 
+        height: 2px; 
+    }
+    .product-head {
+        padding-bottom: 20px;
+    }
+    .product-head-list span::after {
+        height: 0px;
+    }
+    .products-item {
+        padding-top: 10px;
+    }
+    .products-overlay-icon {
+        padding-top: 74px;
+    }
+    .products-text p {
+        font-size: 14px;
+    }
+    .products-text span {
+        margin-left: 25px;
+    }
+    .product-head-list span {
+        padding-right: 9px;
+        padding-left: 0px;
+        font-size: 14px;
+    }
+    .w-100 {
+        padding-top: 0px;
+    }
+    element {
+        margin-top: -15px;
+    }
+  /* =======product media css end======= */
+
+  /* =======microsoft media css start======= */
+  .microsoft-text {
+	padding-top: 20px;
+	text-align: center;
+    }
+    .microsoft-text h5 {
+        font-size: 16px;
+    }
+    .microsoft-text h3 {
+        font-size: 20px;
+    }
+    .microsoft-text p {
+        line-height: 22px;
+        padding: 0px;
+    }
+    #clockdiv > div {
+        padding: 4px 8px;
+        margin-right: 21px;
+    }
+    #clockdiv {
+        font-size: 14px;
+    }
+  /* =======microsoft media css end======= */
+
+  /* =======letest media css start======= */
+  #letest {
+	padding-top: 50px;
+	padding-bottom: 50px;
+    }
+    .testimonial-head h3::before {
+        width: 60px;
+        height: 2px;
+        top: 65px;
+        left: 50px;
+    }
+    .testimonial-head h3::after {
+        width: 60px;
+        height: 2px;
+        top: 65px;
+        left: 50px;
+    }
+    .letest-item .overlay {
+        width: 53px;
+    }
+    .products-overlay-icon i {
+        height: 30px;
+        width: 30px;
+        font-size: 16px;
+        line-height: 30px;
+    }
+    .products-overlay-icon {
+        padding-top: 30px;
+    }
+    .products-overlay-icon .icon-2 {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .products-text span {
+        margin-left: 2px;
+    }
+  /* =======letest media css end======= */
+
+  /* =======testimonial media css end======= */
+  #testimonial {
+	padding-bottom: 50px;
+    }
+  .testimonial-head h3 {
+	font-size: 30px;
+	padding-bottom: 45px;
+    }
+    .testimonial-head h3::before {
+        width: 80px;
+        height: 2px;
+        top: 50px;
+        left: 67px;
+    }
+    .testimonial-head h3::after {
+        width: 60px;
+        height: 2px;
+        top: 55px;
+        left: 67px;
+    }
+    .testimonial-img {
+        margin-top: 3px;
+        height: 57px;
+        width: 57px;
+    }
+    .testimonial-text h4 {
+        font-size: 14px;
+    }
+    .testimonial-text p {
+        padding-top: 0px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .testimonial-text p {
+        display: none;
+    }
+    .testimonial-text {
+        margin-left: 59px;
+        margin-top: -83px;
+    }
+    .testimonial-text h6 {
+        font-size: 14px;
+    }
+    .testimonial-arrow i {
+        display: none;
+    }
+  
+  /* =======testimonial media css end======= */
+
+  /* =======blog media css start======= */
+  #blog {
+	padding-bottom: 50px;
+}
+  .text-center {
+	display: block;
+}
+  .blog-head h3 {
+	font-size: 30px;
+}
+  .blog-link {
+	margin-top: 75px;
+}
+  .blog-icon {
+	margin-top: 70px;
+    }
+    .blog-icon span {
+        margin-left: 3px;
+    }
+    .blog-text h4 {
+        font-size: 17px;
+        padding-bottom: 9px;
+    }
+    .testimonial-arrow i {
+        border: 1px solid #000;
+        color: #fff;
+        background-color:hsl(209, 89%, 74%);
+        padding: 5px 5px;
+        font-size: 14px;
+        line-height: 5px;
+        padding-top: 1px;
+    }
+    .blog-head h3::before {
+        height: 2px;
+        top: 58px;
+        left: 89px;
+    }
+    .blog-head h3::after {
+        height: 2px;
+        top: 54px;
+        left: 89px;
+    }
+    .blog-text {
+        padding-top: 14px;
+        text-align: center;
+    }
+    .blog-text h6 {
+        font-size: 18px;
+    }
+  /* =======blog media css end======= */
+
+  /* =======footer media css end======= */
+  #footer {
+	padding-top: 45px;
+	padding-bottom: 4px;
+    }
+    .footer-head {
+            padding-bottom: 12px; 
+    }
+    .footer-one {
+        padding-bottom: 30px;
+    }
+    .footer-two {
+        padding-bottom: 30px;
+    }
+    .footer-three {
+        padding-bottom: 30px;
+    }
+    .footer-four {
+        padding-bottom: 30px;
+    }
+    form input {
+        padding: 4px 14px;
+    }
+    form button {
+        font-size: 14px;
+        padding: 7px 13px;
+        margin-left: -8px;
+    }
+    .footer-icon i {
+        height: 35px;
+        width: 35px;
+        font-size: 18px;
+        margin-right: 17px;
+    }
+    .copyright-text p {
+        font-size: 13px;
+        padding-right: 3px;
+    }
+  /* =======footer media css end======= */
+}
