@@ -18,6 +18,9 @@ html{
 	outline: 0;
 	box-shadow: none;
 } 
+.nav-item.active .nav-link{
+    color:#de4644;
+}
 /* ======common css end======== */
 
 /* ======header css start======== */
@@ -80,8 +83,8 @@ html{
     width: 100%;
     position: absolute;
     left: 0;
-    top:40px;
-    z-index: 999;
+     top:40px; 
+    z-index: 999; 
     padding: 30px 0;
 }
 .navbar-nav .nav-link{
@@ -1218,3 +1221,730 @@ form button{
     transform: translateY(-50%) rotate(-45deg);
 } 
 /* ======hamburger css end======== */
+
+/* ======about-page css start======== */
+
+/* ======about-page banner css start======== */
+#about-page #about-banner{
+        padding-top: 108px;
+        padding-bottom: 100px;
+    }
+#about-page .about-banner-img{
+    position: relative;
+}
+#about-page .about-banner-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    background-color: hsla(0, 0%, 0%, 0.4);
+}
+#about-page .about-ban-overlay-text{
+    text-align: center;
+}
+#about-page .about-ban-overlay-text h3{
+    color: #fff;
+    padding-top: 40px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+#about-page .about-ban-overlay-text p{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+#about-page .about-ban-overlay-text span{
+    color: #de4644;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+/* ======about-page banner css end======== */
+
+/* ======about-page t-shirt banner css start======== */
+ #about-page .t-shirt-shape{
+   position: relative;
+}  
+#about-page .t-shirt-overlay{
+    position: absolute;
+    left: -90px;
+    top: 30px;
+    width: 100%;
+    height: 350px;
+    background-color: hsla(0, 0%, 0%, 0.8);
+    z-index: 999;
+}
+#about-page .t-shirt-content{
+    padding-top: 40px;
+    margin-left: 30px;
+}
+#about-page .t-shirt-content p{
+    color: #dddddd;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 24px;
+    font-family: 'Open Sans', sans-serif;
+
+}
+/* ======about-page t-shirt banner css end======== */
+
+/* ======about counup css start======== */
+#about-page #about-counup{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#about-page .counup-banner{
+    position: relative;
+}
+#about-page .counup-overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top:0;
+    background-color: hsla(0, 0%, 0%, 0.8);
+}
+#about-page .counup-text{
+    padding-top: 10px;
+}
+#about-page .counup-text p{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+}
+#about-page .counup-text h3{
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    text-align: center;
+}
+/* ======about counup css end======== */
+
+/* ======about desgin css start======== */
+#about-page #design{
+    padding-bottom: 100px;
+}
+#about-page .desgin-head{
+    padding-bottom: 30px;
+}
+#about-page .desgin-head h3{
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    text-transform: capitalize;
+    position: relative;
+}
+#about-page .desgin-head h3::before{
+    content: "";
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    background-color: #de4644;
+    top:60px;
+} 
+#about-page .desgin-item{
+    position: relative;
+}
+#about-page .desgin-overlay{
+    position: absolute;
+    height: 100%;
+    width: 35%;
+    right: 0;
+    top:0;
+    background-color: rgba(0, 0, 0, 0.7);
+    opacity: 0;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;
+    -moz-transition: all linear .5s;
+    -ms-transition: all linear .5s;
+    -o-transition: all linear .5s;
+}
+#about-page .desgin-item:hover .desgin-overlay{
+    opacity: 1;
+}
+#about-page .desgin-overlay-icon{
+    padding-top: 40px;
+}
+#about-page .desgin-overlay-icon i{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    width: 40px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    font-size: 18px;
+    background-color: transparent;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#about-page .desgin-overlay-icon i:hover{
+    background-color: #de4644;
+    border: none;
+}
+#about-page .design-text{
+    text-align: center;
+    border: 1px solid #777777;
+    border-top: none;
+    padding-top: 10px;
+}
+#about-page .design-text h4{
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#about-page .design-text p{
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+/* ======about desgin css end======== */
+
+/* ======about market css start======== */
+#market{
+    padding-bottom: 100px;
+}
+.market-arrow{
+    margin-bottom: -67px;
+    margin-left: -20px;
+}
+.market-arrow i{
+    border: 1px solid #000;
+    color: #000;
+    background-color: transparent;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 5px;
+}
+.market-arrow-right{
+    margin-top: -67px;
+    margin-left: 100%;
+}
+.market-arrow-right i{
+    border: 1px solid #000;
+    color: #000;
+    background-color: transparent;
+    padding: 10px 10px;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 5px;
+}
+.market-arrow :hover{
+    background-color: #de4644;
+    border: none;
+}
+.market-arrow-right :hover{
+    background-color: #de4644;
+    border: none;
+}
+.market-img img:hover{
+    box-shadow: -4px 0px 4px 2px rgba(0,0,0,0.86);
+    -webkit-box-shadow: -4px 0px 4px 2px rgba(0,0,0,0.86);
+    -moz-box-shadow: -4px 0px 4px 2px rgba(0,0,0,0.86);
+}
+/* ======about market css end======== */
+/* ======about-page css end======== */
+
+/* ======contact-page part css start======== */
+
+/* ======contact-page banner css start======== */
+#contact-page #about-banner{
+    padding-top: 108px;
+}
+#contact-page .about-banner-img{
+position: relative;
+}
+#contact-page .about-banner-overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top:0;
+background-color: hsla(0, 0%, 0%, 0.4);
+}
+#contact-page .about-ban-overlay-text{
+text-align: center;
+}
+#contact-page .about-ban-overlay-text h3{
+color: #fff;
+padding-top: 40px;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+font-size: 24px;
+text-transform: uppercase;
+}
+#contact-page .about-ban-overlay-text p{
+color: #fff;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+#contact-page .about-ban-overlay-text span{
+color: #de4644;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+/* ======contact-page banner css end======== */
+/* ======contact-page contact css start======== */
+#contact-page #contact{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#contact-page .conatact-haed h4{
+    padding-bottom: 10px;
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+#contact-page .conatact-haed p{
+    font-family: 'Open Sans', sans-serif;
+    color: #444444; 
+    font-size: 14px;
+    font-weight: 300;
+}
+#contact-page .contact-form input{
+    padding-right: 130px;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+#contact-page .contact-form input:focus{
+    outline: none;
+}
+#contact-page .contact-form input::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    color: #777777; 
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+#contact-page .contact-form textarea{
+    padding-right: 480px;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    margin-top: 10px;
+}
+#contact-page .contact-form textarea:focus{
+    outline: none;
+}
+#contact-page .contact-icon i{
+    color:#de4644;
+    margin-right: 20px;
+}
+#contact-page .contact-icon p{
+    font-family: 'Open Sans', sans-serif;
+    color: #444444; 
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* ======contact-page contact css start======== */
+/* ======about map css start======== */
+#contact-page #map{
+    padding-bottom: 100px;
+}
+#contact-page .map-head iframe{
+    width: 100%;
+}
+/* ======about map css end======== */
+/* ======contact-page part css end======== */
+
+/* ======eror-page part css start======== */
+/* ======eror-page banner css start======== */
+#eror-page #about-banner{
+    padding-top: 108px;
+}
+#eror-page .about-banner-img{
+position: relative;
+}
+#eror-page .about-banner-overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top:0;
+background-color: hsla(0, 0%, 0%, 0.4);
+}
+#eror-page .about-ban-overlay-text{
+text-align: center;
+}
+#eror-page .about-ban-overlay-text h3{
+color: #fff;
+padding-top: 40px;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+font-size: 24px;
+text-transform: uppercase;
+}
+#eror-page .about-ban-overlay-text p{
+color: #fff;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+#eror-page .about-ban-overlay-text span{
+color: #de4644;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+/* ======eror-page banner css end======== */
+
+/* ======eror-page banner css end======== */
+#eror-page #eror{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#eror-page .eror-text p{
+    padding-top: 30px;
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+#eror-page .eror-btn{
+    padding-top: 30px;
+}
+#eror-page .eror-btn button{
+    padding: 12px 20px;
+    background-color: #de4644;
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    border:none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+/* ======eror-page banner css end======== */
+/* ======eror-page part css end======== */
+
+/* ======checkout-page part css start======== */
+/* ======checkout-page banner css start======== */
+#checkout-page #about-banner{
+    padding-top: 108px;
+}
+#checkout-page .about-banner-img{
+position: relative;
+}
+#checkout-page .about-banner-overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top:0;
+background-color: hsla(0, 0%, 0%, 0.4);
+}
+#checkout-page .about-ban-overlay-text{
+text-align: center;
+}
+#checkout-page .about-ban-overlay-text h3{
+color: #fff;
+padding-top: 40px;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+font-size: 24px;
+text-transform: uppercase;
+}
+#checkout-page .about-ban-overlay-text p{
+color: #fff;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+#checkout-page .about-ban-overlay-text span{
+color: #de4644;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+/* ======checkout-page banner css end======== */
+
+/* ======checkout css start======== */
+#checkout-page #checkout{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#checkout-page .checkout-haed{
+    margin-bottom: 40px;
+}
+#checkout-page .checkout-haed span{
+    color: #de4644;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#checkout-page .checkout-haed p{
+    font-family: 'Open Sans', sans-serif;
+    color: #777777; 
+    font-size: 14px;
+    font-weight: 300;
+}
+#checkout-page .checkout-haed .shipping{
+    font-family: 'Open Sans', sans-serif;
+    color: #777777; 
+    font-size: 16px;
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-left: 70px;
+    position: relative;
+}
+#checkout-page .checkout-haed .shipping::after{
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    left: -40px;
+    top:0;
+    background-color: #444444;
+}
+#checkout-page .checkout-haed{
+    position: relative;
+}
+#checkout-page .checkout-haed::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top:-10px;
+    height: 1px;
+    width: 100%;
+    background-color: #dddddd;
+}
+#checkout-page .checkout-haed::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom:-10px;
+    height: 1px;
+    width: 100%;
+    background-color: #dddddd;
+}
+#checkout-page .checkout-form input{
+    /* padding-right: 130px; */
+    padding-left: 10px; 
+    width: 100%;
+    margin-top: 12px;
+    margin-right: 20px;
+}
+#checkout-page .checkout-form .lol{
+    width: 49%;
+    margin-right: 5px;
+}
+#checkout-page .checkout-form input:focus{
+    outline: none;
+}
+#checkout-page .checkout-form input::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    color: #777777; 
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+#checkout-page .checkout-form textarea{
+    /* padding-right: 480px; */
+    width: 100%;
+    padding-left: 10px;
+    padding-bottom: 60px;
+    margin-top: 10px;
+    resize: none;
+}
+#checkout-page .checkout-form textarea::placeholder{
+    font-family: 'Open Sans', sans-serif;
+    color: #777777; 
+    font-size: 14px;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+#checkout-page .checkout-form textarea:focus{
+    outline: none;
+}
+#checkout-page .checkout-right{
+    border: 1px solid #dddddd;
+}
+#checkout-page .checkout-right h5{
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+}
+#checkout-page .checkout-right P{
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-top: 1px solid #dddddd;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#checkout-page .checkout-right span{
+    margin-left: 170px;
+}
+#checkout-page .checkout-right P:hover{
+    border-top:1px solid #de4644;
+}
+#checkout-page .payment{
+    padding-top: 40px;
+}
+#checkout-page .checkout-haed h5{
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+#checkout-page .checkbox input{
+    margin-right: 20px;
+}
+#checkout-page .checkbox h4{
+    color: #222222;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#checkout-page .checkbox p{
+    font-family: 'Open Sans', sans-serif;
+    color: #777777; 
+    font-size: 14px;
+    font-weight: 300;
+}
+#checkout-page .checkbox h5{
+    color: #444444;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+#checkout-page .checkout-btn{
+    padding-top: 10px;
+}
+#checkout-page .checkout-btn button{
+    padding: 12px 20px;
+    background-color: #de4644;
+    color:#fff;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    text-transform: capitalize;
+    border:none;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+/* ======checkout css end======== */
+/* ======checkout-page part css end======== */
+
+/* ======blog-page part css start======== */
+/* ======blog-page banner css start======== */
+#blog-page #about-banner{
+    padding-top: 108px;
+}
+#blog-page .about-banner-img{
+position: relative;
+}
+#blog-page .about-banner-overlay{
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top:0;
+background-color: hsla(0, 0%, 0%, 0.4);
+}
+#blog-page .about-ban-overlay-text{
+text-align: center;
+}
+#blog-page .about-ban-overlay-text h3{
+color: #fff;
+padding-top: 40px;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+font-size: 24px;
+text-transform: uppercase;
+}
+#blog-page .about-ban-overlay-text p{
+color: #fff;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+#blog-page .about-ban-overlay-text span{
+color: #de4644;
+font-family: 'Raleway', sans-serif;
+font-weight: 500;
+font-size: 16px;
+}
+/* ======blog-page banner css end======== */
+
+/* ======blog-page gellary css start======== */
+#blog-page #blog-gellary{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#blog-page .blog-gellary-page{
+    border: 1px solid #dddddd;
+    margin-bottom: 30px;
+    padding: 10px 0;
+}
+#blog-page .blog-gellary-page .blog-gellary-icon i{
+    border: 1px solid #dddddd;
+    padding: 5px 5px;
+    margin-left: 10px;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+#blog-page .blog-gellary-page .blog-gellary-icon i:hover{
+    border: none;
+    color: #de4644;
+}
+#blog-page .blog-gellary-icon span{
+    padding-left: 250px;
+}
+/* ======blog-page gellary css end======== */
+/* ======blog-page part css end======== */

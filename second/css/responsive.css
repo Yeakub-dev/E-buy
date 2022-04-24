@@ -1,0 +1,487 @@
+@media(min-width: 992px) and (max-width: 1200px){
+    .category-main .col {
+        margin-left: 243px;
+    }
+    .market-arrow-right {
+        margin-left: 99%;
+    }
+    #gellary {
+        padding-top: 45px;
+        padding-bottom: 49px;
+    }
+    .gellary-img .overlay {
+        top: 155px;
+    }
+}
+
+
+
+@media(min-width: 768px) and (max-width: 991px){
+    .category-main .col {
+        margin-left: 227px;
+        margin-top: -30px;
+    }
+    .category-main ul li {
+        padding-top: 7px;
+        padding-bottom: 8px;
+        font-size: 16px;
+    }
+    .banner-text {
+        padding-top: 90px;
+    }
+    .banner-text h2 {
+        font-size: 38px;
+    }
+    .banner-btn {
+        padding-top: 20px;
+    }
+    .banner-btn button {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+    .banner-btn button:hover {
+        padding: 10px 16px;
+        font-size: 14px;
+    }
+    .banner-arrow {
+        display: none;
+    }
+     /* =======gellary media css start======= */
+     #gellary {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .gellary-img .overlay {
+        height: 125px;
+        top: 103px;
+        left: 11px;
+    }
+    .gellary-text h2 {
+        font-size: 30px;
+    }
+    .gellary-text h3 {
+        font-size: 20px;
+    }
+    .gellary-btn button {
+        margin-top: 0px;
+        padding: 8px 15px;
+        font-size: 14px;;
+    }
+    .gellary-btn button:hover {
+        margin-top: 0px;
+        padding: 8px 15px;
+        font-size: 14px;;
+    }
+    /* =======gellary media css end======= */
+
+    /* =======product media css start======= */
+    .product-left-text {
+        padding-top: 25px;
+    }
+    .product-head h3::before {
+        left: 30px;
+    }
+    .product-head h3::after {
+        left: 30px;
+    }
+    #clockdiv {
+        font-size: 14px;
+    }
+    .pb-5 {
+        padding-bottom: 0rem !important;
+    }
+    .products-left-icon {
+        padding-bottom: 10px;
+    }
+    .product-left-arrow {
+        margin-top: -6px;
+    }
+    .pt-5 {
+        padding-top: 2rem !important;
+    }
+    .letest-text span {
+        margin-left: 12px;
+    }
+    .letest-text {
+        margin-left: 15px;
+        padding-top: 5px;
+        padding-bottom: 0px;
+    }
+    .letest-text p {
+        padding-top: 0px;
+    }
+    /* =======product media css end======= */
+
+    /* =======new product media css start======= */
+    #product {
+        padding-bottom: 50px;
+    }
+    .product-head h3::before {
+        left: 65px;
+    }
+    .product-head h3::after {
+        left: 65px;
+    }
+    .product-head {
+        padding-bottom: 22px;
+    }
+    .products-overlay-icon {
+        padding-top: 36px;
+    }
+    .products-overlay-icon i {
+        height: 35px;
+        width: 35px;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    .products-overlay-icon .icon-2 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .test-btn {
+        margin-top: 358px;
+    }
+    .test-img {
+        margin-top: 10px;
+    }
+    .test-text {
+        padding-top: 10px;
+    }
+    /* =======new product media css end======= */
+
+    /* =======blog media css start======= */
+    #blog {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .blog-head {
+        padding-bottom: 30px;
+    }
+    .blog-head h3::before {
+        left: 118px;
+    }
+    .blog-head h3::after {
+        left: 118px;
+    }
+    .blog-link {
+        margin-top: 34px;
+    }
+    .blog-icon {
+        margin-top: 1px;
+    }
+    .blog-icon span {
+        margin-left: 5px;
+    }
+    .blog-text {
+        padding-top: 13px;
+    }
+    .blog-text h4 {
+        font-size: 14px;
+        padding-bottom: 3px;
+    }
+    /* =======blog media css end======= */
+
+    /* =======market media css end======= */
+    #market {
+        padding-bottom: 70px;
+    }
+    .market-arrow {
+        margin-left: -33px;
+    }
+    .market-arrow-right {
+        margin-top: -146px;
+    }
+    /* =======market media css end======= */
+}
+
+
+@media(min-width: 576px) and (max-width: 767px){
+
+    .category-main .col {
+        margin-left: 448px;
+        margin-top: -32px;
+    }
+    .category-main ul li {
+        font-size: 19px;
+    }
+    .banner-text {
+        padding-top: 131px;
+    }
+    .banner-text h2 {
+        font-size: 50px;
+    }
+    .banner-btn button {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+    .banner-btn button:hover {
+        padding: 12px 16px;
+        font-size: 14px;
+    }
+    /* =======gellary media css start====== */
+    #gellary {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .gellary-img .overlay {
+        top: 104px;
+    }
+    .gellary-text h2 {
+        font-size: 30px;
+    }
+    .gellary-btn button {
+        padding: 9px 15px;;
+        font-size: 14px;
+    }
+    .gellary-btn button:hover {
+        padding: 9px 15px;;
+        font-size: 14px;
+    }
+    /* =======gellary media css end====== */
+
+    /* =======letest media css start====== */
+    #product {
+        padding-bottom: 30px;
+    }
+    .product-head h3::before {
+        left: 140px;
+    }
+    .product-head h3::after {
+        left: 140px;
+    }
+    .letest-text {
+        margin-left: 71px;
+        padding-top: 5px;
+        padding-bottom: 3px;
+    }
+    .product-head h3 {
+        font-size: 36px;
+        padding-top: 20px;
+        }
+        .product-head h3::before {
+            left: 100px;
+        }
+        .product-head h3::after {
+            left: 100px;
+        }
+        .products-overlay-icon {
+            padding-top: 65px;
+        }
+        .products-text span {
+            margin-left: 37px;
+        }
+        .test-btn {
+            margin-top: 714px;
+        }
+    /* =======letest media css end====== */
+
+    /* =======blog media css start====== */
+    #blog {
+        padding-top: 60px;
+        padding-bottom: 70px;
+    }
+    .blog-head h3::before {
+        width: 65px;
+        left: 175px;
+    }
+    .blog-head h3::after {
+        width: 90px;
+        left: 175px;
+    }
+    .letest-text span {
+        margin-left: 205px;
+    }
+    .blog-link {
+        margin-top: 57px;
+    }
+    .blog-icon {
+        margin-top: 21px;
+    }
+    .blog-icon span {
+        margin-left: 26px;
+    }
+    .market-arrow i {
+        padding: 7px 7px;
+        font-size: 16px;
+        line-height: 3px;
+    }
+    .market-arrow-right i {
+        padding: 7px 7px;
+        font-size: 16px;
+        line-height: 7px;
+    }
+    .market-arrow-right {
+        margin-top: -109px;
+    }
+    .market-arrow {
+        margin-bottom: -50px;
+        margin-left: -22px;
+    }
+    /* =======blog media css end====== */
+}
+  
+
+
+
+@media(max-width: 575.99px){
+    .category-main .col {
+        margin-left: 248px;
+    }
+   /* =======banner media start======== */
+   .banner-text {
+	padding-top: 40px;
+    }
+    .banner-text h2 {
+        font-size: 30px;
+    }
+    .banner-text h2 {
+        font-size: 20px;
+    }
+    .banner-btn {
+        padding-top: 16px;
+    }
+    .banner-btn button{
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+    .banner-btn button:hover {
+        padding: 6px 10px;
+        font-size: 13px;
+    }
+   /* =======banner media end======== */
+
+   /* =======gellary media start======== */
+   #gellary {
+	padding-top: 40px;
+	padding-bottom: 50px;
+    }
+    .gellary-img .overlay {
+        top: 160px;
+    }
+    .gellary-text h2 {
+        font-size: 30px;
+        padding-top: 20px;
+    }
+    .gellary-text h3 {
+        font-size: 20px;
+    }
+    .gellary-btn button {
+        margin-top: 6px;
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+    .gellary-btn button:hover{
+        margin-top: 6px;
+        padding: 8px 10px;
+        font-size: 13px;
+    }
+   /* =======gellary media end======== */
+
+   /* =======product media start======== */
+   #product {
+	padding-bottom: 20px;
+    }
+   .product-head h3 {
+	font-size: 25px;
+	padding-top: 20px;
+    }
+    .product-head-list span {
+        padding-right: 1px;
+        padding-left: 16px;
+        font-size: 16px;
+    }
+    .product-head {
+        padding-bottom: 30px;
+    }
+    .product-head h3::before {
+        left: 40px;
+    }
+    .product-head h3::after {
+        left: 40px;
+    }
+    .products-text p {
+        font-size: 14px;
+    }
+    .products-text span {
+        margin-left: 117px;
+    }
+    .products-item {
+        padding-top: 20px;
+    }
+   .product-left-head {
+	padding-top: 8px;
+	padding-bottom: 1px;
+    }
+    .product-left-text {
+        padding-top: 20px;
+    }
+    .products-left-icon {
+        padding-bottom: 20px;
+    }
+    .product-left-arrow {
+        margin-top: 0px;
+    }
+    .pb-5 {
+        padding-bottom: 0rem !important;
+    }
+    .letest-text {
+        margin-left: 6px;
+        padding-top: 7px;
+        padding-bottom: 0px;
+    }
+    .letest-text p {
+        padding-top: 0px;
+    }
+    .letest-text span {
+        margin-left: 35px;
+    }
+    .test-btn {
+        margin-top: 390px;
+    }
+    .test-img {
+        margin-top: 11px;
+    }
+    .products-overlay-icon {
+        padding-top: 76px;
+    }
+   /* =======product media end======== */
+
+   /* =======blog media start======== */
+   #blog {
+	padding-top: 60px;
+	padding-bottom: 80px;
+    }
+    .blog-head {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .blog-head h3::before {
+        left: 70px;
+    }
+    .blog-head h3::after {
+        left: 70px;
+    }
+    .blog-link {
+        margin-top: 70px;
+    }
+    .blog-icon {
+        margin-top: 66px;
+    }
+    .blog-icon span {
+        margin-left: 4px;
+    }
+   /* =======blog media end======== */
+
+   /* =======market media start======== */
+   .market-arrow {
+    margin-bottom: 6px;
+    margin-left: 129px;
+} 
+   .market-arrow-right {
+	margin-top: 9px;
+	margin-left: 46%;
+    }
+  
+   /* =======market media end======== */
+}
+   

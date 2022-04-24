@@ -1,0 +1,27 @@
+body {
+  background-color: #f1f1f1;
+  padding-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #39317d;
+}
+
+
+#counters_1, #counters_2, #counters_3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 33px;
+}
+
+.counter {
+  font-size: 44px;
+  font-weight: 600;
+  color: #7b2314;
+  width: 152px;
+}
+/*# sourceMappingURL=style.css.map */

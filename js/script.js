@@ -178,5 +178,11 @@ $(window).on('scroll', function () {
     }
   });
 });
+
+// must be an array, could have only one element
+let visibilityIds = ['#counters_1','#counters_2','#counters_3'];
+let counterClass ='.counter';
+let defaultSpeed = 3000;
+
     
 })
